@@ -60,10 +60,14 @@ ul li ul.dropdown_main{
     z-index: 999;
     display: none;
 }
-ul li a:hover{
+
+ul li a:hover,
+ul li a:active,
+ul li a:focus {
     background: darkslategray;
 }
-ul li:hover ul.dropdown_main{
+ul li:hover ul.dropdown_main,
+ul li:focus-within ul.dropdown_main {
     display: block;
 }
 
@@ -200,6 +204,14 @@ ul li:hover ul.dropdown_main{
 }
 #contact1 iframe{
     text-align: center;
+}
+@media (max-width: 768px) {
+    iframe{
+        width: auto;
+    }
+    blockquote{
+        width: auto;
+    }
 }
 
 
