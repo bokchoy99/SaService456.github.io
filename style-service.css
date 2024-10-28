@@ -71,6 +71,17 @@ ul li:focus-within ul.dropdown_main {
     display: block;
 }
 
+@media (max-width: 930px) {
+    ul.navbar li a{
+        display: block;
+        padding: 8px 18px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 19px;
+    }
+}
+
 /*--section--*/
 .section {
     padding: 60px;
