@@ -111,7 +111,7 @@ ul li:focus-within ul.dropdown_main {
     transform: scale(1.05);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 930px) {
     .section {
         display: flex;             
         flex-wrap: wrap;           
@@ -151,7 +151,7 @@ ul li:focus-within ul.dropdown_main {
     text-indent: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 930px) {
     .show img {
         max-width: 49%;
         max-height: 49%;
@@ -205,7 +205,7 @@ ul li:focus-within ul.dropdown_main {
 #contact1 iframe{
     text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 930px) {
     .con-item{
         display: flex;
         flex-direction: row;
