@@ -145,6 +145,17 @@ ul li:focus-within ul.dropdown_main {
     height: 50px;
 }
 @media (max-width: 768px) {
+    .con-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
+    }
+    #contact1 img{
+        width: 37px;
+        height: 37px;
+    }
+    
     iframe{
         width: auto;
     }

@@ -161,11 +161,29 @@ ul li:focus-within ul.dropdown_main {
     width: 50px;
     height: 50px;
 }
+@media (max-width: 768px) {
+    .con-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
+    }
+    #contact1 img{
+        width: 37px;
+        height: 37px;
+    }
+    iframe{
+        width: auto;
+    }
+    blockquote{
+        width: auto;
+    }
+}
 
 /*--list--*/
 #list{
     margin: 100px;
-    line-height: 20px;
+    line-height: 25px;
 }
 #list h2{
     font-size: 35px;
